@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block and Inline HTML elements; Introduction to CSS</title>
+    <style>
+        div{
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+        
+        span{
+            text-decoration: line-through;
+            font-size: larger;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: palevioletred;
+            background-color: greenyellow;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!--Block element consumes the entire width of the page-->
+    <!--Style tag is where you put design/css code-->
+    <!--Margin pushes elements outwards-->
+    <!--Padding pushes elements inwards-->
+
+    <!--using block elements-->
+    <!--<div> tag-->
+        <div style="background-color: aquamarine;"><!--simple usage of div tag-->
+            div 1
+        </div>
+        <div style="background-color: blueviolet;"><!-- another simple usage of div tag-->
+            div 2
+        </div>
+        <hr>
+        <div><!--div can be nested too-->
+            root div
+            <div>div 1
+                <div>div 1a</div>
+                <div>div 1b</div>
+                <div>div 1c</div>
+            </div>
+            <div>div 2</div>
+            <div>div 3</div>
+        </div>
+    
+        <!--using inline elements-->
+        <!-- <spam> tag-->
+        <p>
+            span tag is a great tag to use when modifying 
+            large blocks of text without applying heavy HTML tag 
+            usage in between sentencese or paragraphs. 
+            <span>To emphasize
+            or focus a block of text, use span instead of applying
+            style to the intended text.</span>
+        </p>
+        <hr>
+        <a href="index.html">
+            Go back to main page 
+        </a>
+        <a href="page3.html">
+            Go to page 3
+        </a>
+</body>
+</html>
