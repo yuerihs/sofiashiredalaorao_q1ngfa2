@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Young+Serif&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+ }
+ #navbar{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 15px;
+    text-align: center;
+    background-color: #B09E99;
+ }
+ #links{
+    display: inline;
+
+ }
+ #navbar #links a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:500;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    opacity: .70;
+    transition: 0.2s;
+
+ }
+ #navbar #links a:hover{
+    opacity: 1; transition: 0.4s;
+ }
+ #yt{
+    background-color: #C5A48A; color: rgb(255, 255, 255);
+ }
+ #fb{
+    background-color: #dab396; color: rgb(255, 255, 255);
+ }
+ #dc{
+    background-color: #C5A48A; color: rgb(255, 255, 255);
+ }
+ #rdt{
+    background-color: #dab396; color: rgb(255, 255, 255);
+ }
+ #x{
+    background-color: #C5A48A; color: rgb(255, 255, 255);
+    
+ }
+ .rounded{
+    border-radius: 5px;
+ }
+ #links{
+    display: inline;
+ }
+ .banner{
+    background-image: url(coffee.jpg);
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 650px;
+    background-position: center;
+ }
+ .banner h2{
+   color: #c5b08e;
+   font-family: 'Young Serif', serif;
+   font-size: xx-large;
+   text-shadow: 1px 1px rgb(255, 255, 255);
+
+
+ }
+ .banner h2 span{
+    color: #dbd2bd;
+
+ }
+ .banner p{
+    color: #f4f2ee;
+    font-size: larger;
+    margin-bottom: 20px;
+ }
+ .banner a{
+    padding: 10px;
+    text-decoration: none;
+    background-color: #c5b08e;
+    font-family: 'Gabarito', cursive;
+    font-family: 'Young Serif', serif;
+    text-transform: uppercase;
+    color: black;
+
+ }
